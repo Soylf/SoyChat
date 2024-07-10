@@ -1,4 +1,4 @@
-package com.example.SoyChat.error.exception;
+package com.example.SoyChat.back.error.exception;
 
 public class NotFoundException extends RuntimeException {
     public NotFoundException(String message) {

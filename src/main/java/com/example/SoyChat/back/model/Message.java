@@ -1,4 +1,4 @@
-package com.example.SoyChat.model;
+package com.example.SoyChat.back.model;
 
 import jakarta.persistence.*;
 import lombok.*;
@@ -15,6 +15,5 @@ public class Message {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    private User user;
     private String text;
 }

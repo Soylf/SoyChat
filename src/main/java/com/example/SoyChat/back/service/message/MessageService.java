@@ -1,6 +1,6 @@
-package com.example.SoyChat.service.message;
+package com.example.SoyChat.back.service.message;
 
-import com.example.SoyChat.dto.MessageDto;
+import com.example.SoyChat.back.dto.MessageDto;
 
 import java.util.List;
 
