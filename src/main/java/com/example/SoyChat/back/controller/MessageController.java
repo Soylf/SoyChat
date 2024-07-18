@@ -13,7 +13,7 @@ import java.util.List;
 @Slf4j
 @RestController
 @RequiredArgsConstructor
-@RequestMapping("/message")
+@RequestMapping("/messages")
 public class MessageController {
     @Autowired
     private MessageService service;
@@ -25,6 +25,7 @@ public class MessageController {
 
     @PostMapping
     public ResponseEntity<Void> create(@RequestBody MessageDto message) {
+        log.info("Текст -> {}", message.getText());
         service.create(message);
         return ResponseEntity.ok().build();
     }
