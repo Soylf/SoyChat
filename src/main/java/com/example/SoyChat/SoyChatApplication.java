@@ -9,5 +9,4 @@ public class SoyChatApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SoyChatApplication.class, args);
 	}
-
 }
